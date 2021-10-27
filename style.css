@@ -11,7 +11,9 @@ html, body{
 
 /*  Dekstop */
 @media (min-width: 1025px) { 
-
+    .margin-right-navbar{
+        margin-right: 200px;
+    }
 
 }
 
@@ -50,20 +52,21 @@ html, body{
         font-size: 12px;
     }
     .gambar-ku img{
-    width: -webkit-fill-available !important;
+    width: -webkit-fill-available ;
     margin-top: 20px;
     }
-    /* .fitur{
-        text-align: center;
-    } */
+    .margin-right-navbar{
+        margin: 0;
+    }
+    body{
+        padding: 0 20px;
+    }
 }
 
 .logo {
     width: 150px;
 }
-.margin-right-navbar{
-    margin-right: 200px;
-}
+
 
 .btn-ku-1{
     margin-left: 50px;
