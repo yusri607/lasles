@@ -14,6 +14,9 @@ html, body{
     .margin-right-navbar{
         margin-right: 200px;
     }
+    .footer-p{
+        padding-right: 40px;
+    }
 
 }
 
@@ -41,6 +44,9 @@ html, body{
 
 /* Mobile */
 @media (max-width: 552px) {
+    body{
+        padding: 0 20px;
+    }
     .judul-hero h1{
         font-size:20px;
     }
@@ -58,9 +64,7 @@ html, body{
     .margin-right-navbar{
         margin: 0;
     }
-    body{
-        padding: 0 20px;
-    }
+    
 }
 
 .logo {
