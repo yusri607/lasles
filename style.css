@@ -52,7 +52,7 @@ html, body{
         font-size: 12px;
     }
     .gambar-ku img{
-    width: 140pxa ;
+    width: -webkit-fill-available;
     margin-top: 20px;
     }
     .margin-right-navbar{
