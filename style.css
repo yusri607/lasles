@@ -1,0 +1,147 @@
+html, body{ 
+    font-family: 'Poppins';
+    background-color: white;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+    
+}
+
+/*  Dekstop */
+@media (min-width: 1025px) { 
+
+
+}
+
+
+/* Ipad pro */
+@media (min-width: 992px) and (max-width: 1024px) {
+
+  .gambar-banner img {
+    width: 450px;
+  }
+
+}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+}
+
+/* Ipad */
+@media (min-width: 553px) and (max-width: 768px) { 
+   
+  
+}
+
+
+/* Mobile */
+@media (max-width: 552px) {
+    .judul-hero h1{
+        font-size:20px;
+    }
+    .judul-hero, p{
+        font-size: 16px;
+    }
+    .judul-hero .btn-ku-3{
+        padding: 12px 30px;
+        font-size: 12px;
+    }
+    .gambar-ku img{
+    width: -webkit-fill-available !important;
+    margin-top: 20px;
+    }
+    /* .fitur{
+        text-align: center;
+    } */
+}
+
+.logo {
+    width: 150px;
+}
+.margin-right-navbar{
+    margin-right: 200px;
+}
+
+.btn-ku-1{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.btn-ku-1:hover{
+    color: #eaeaea;
+}
+
+.btn-ku-2{
+    font-weight: bold;
+    color: #F53855;
+    /* border-radius: 100px; */
+    border: 2px solid #F53855;
+    padding: 12px 50px;
+}
+
+.btn-ku-3{
+    font-size: 16px;
+    padding: 12px 50px;
+    margin-top: 20px;
+    background-color:#F53855;
+    border: 2px solid #F53855;
+    border-radius: 10px;
+    color:white;
+    
+}
+
+
+.navbar {
+    font-weight: bold;
+    background-color: white !important;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.margin-top-bottom-hero{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid rg;
+}
+
+.judul-hero{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.judul-hero, p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fitur span{
+    font-weight: bold;
+}
+h1, h2 {
+    font-weight: bold;
+}
+
+.bg-ea{background-color: #eaeaea;
+    padding: 50px 0; 
+}
+
+
+
+.justify-freeplan{text-align: justify;}
+
+.border-plan{
+    border: 2px solid #efefefef;
+    border-radius: 20px;
+    background-color: white !important;
+    margin-top: 20px;
+    padding: 50px 0 !important;
+}
+
+.font-footer{
+    font-size: 16px;
+}
+.font-footer p{
+    font-size: 14px;
+}
